@@ -4,3 +4,12 @@ Worked on Logest Common Prefix:
 
 Better way:
 - Using startswith function, then looping through strings and comparing pre= pre[:-1]
+
+## Day 2
+- length of the last word, lesson. I used split to seperate words in the string, then indexed the last words and returned it length.
+
+- Reverse words, was solved could have been faster, and I tried to use trim in the place of strip().
+- Better version: return " ".join(s.strip().split()[::-1])
+
+
+

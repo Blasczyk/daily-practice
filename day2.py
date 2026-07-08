@@ -8,6 +8,21 @@ def lengthOfLastWord(s:str) -> int:
 	return len(last_word)
 
 
-s = "Hello World"
+#s = "Hello World"
+#lengthOfLastWord(s)
 
-lengthOfLastWord(s)
+
+# Next Question: reverse the words in a string
+def reverseWords(s:str)->str:
+	newstring =""
+	l = s.split()
+
+	for word in reversed(l):
+		newstring = newstring + " " + word
+		print(word)
+	return newstring.strip()
+
+s = "The sky is blue"
+
+print(reverseWords(s))
+
